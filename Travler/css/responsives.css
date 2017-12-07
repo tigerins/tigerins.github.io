@@ -46,6 +46,9 @@
 	.pic__item-middle {
 		padding-top: 30px;
 	}
+	.slide__link {
+		bottom: 24%;
+	}
 }	
 
 @media screen and (max-width: 870px) {
@@ -117,6 +120,9 @@
 		width: 98px;
 		height: 98px;
 	}
+	.slide__link {
+		bottom: 23.5%;
+	}
 }
 
 @media screen and (max-width: 650px) {
@@ -181,6 +187,9 @@
 	}
 	.box__awards1 {
 		padding-top: 10%;
+	}
+	.slide__link {
+		bottom: 23%;
 	}
 }
 

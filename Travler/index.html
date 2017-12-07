@@ -3,10 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Traveler</title>
+        <title>Travler</title>
         <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet"  href="css/jquery.bxslider.css"/>
+        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
         <link rel="stylesheet" href="css/responsives.css">
     </head>
     <body class="page">
@@ -20,29 +21,29 @@
     				</div>
     				<div class="header__right">
     				<div class="header__search">
-						<form action="#" method="post" class="search__form">
-							<div class="text-field">
-								<input class="text-field__form" type="text" value="Search for somthing here" onfocus="if (this.value=='Search for somthing here') this.value='';" onblur="if (this.value==''){this.value='Search for somthing here'}"/>
-							</div>
+					<form action="#" method="post" class="search__form">
+						<div class="text-field">
+							<input class="text-field__form" type="text" value="Search for somthing here" onfocus="if (this.value=='Search for somthing here') this.value='';" onblur="if (this.value==''){this.value='Search for somthing here'}"/>
+						</div>
 						<input class="text-field__btn" type="image" src="images/search_btn.png" alt="" />
-						</form>
+					</form>
     				</div>
     				<div class="header__quicklinks">
     					<div class="quicklinks">
     					<p class="quicklinks__form">Quicklinks <img class="quick__img" src="images/map_pin.png" alt=""></p>
-    				    </div>
-    				    <div class="quicklinks__box">
-    				    	<ul class="quicklinks__boxs">
-                                <li class="boxs">Select from dropdown<img class="drop__img" src="images/drop-img.png" alt="">
-                                    <ul class="dropmenu">
-                                       <li class="dropmenu__item"><img class="drops__img" src="images/map_pin.png" alt=""><a class="dropmenu__link" href="#">Киев</a></li>
-                                        <li class="dropmenu__item"><img class="drops__img" src="images/map_pin.png" alt=""><a class="dropmenu__link" href="#">Харьков</a></li>
-                                        <li class="dropmenu__item"><img class="drops__img" src="images/map_pin.png" alt=""><a class="dropmenu__link" href="#">Сумы</a></li>
-                                    </ul>
-                                 </li>
-                            </ul>
-    				    </div>
-    				</div>
+    					</div>
+    				    	<div class="quicklinks__box">
+    				    		<ul class="quicklinks__boxs">
+                                			<li class="boxs">Select from dropdown<img class="drop__img" src="images/drop-img.png" alt="">
+                                   				<ul class="dropmenu">
+                                       					<li class="dropmenu__item"><img class="drops__img" src="images/map_pin.png" alt=""><a class="dropmenu__link" href="#">Kiev</a></li>
+                                        				<li class="dropmenu__item"><img class="drops__img" src="images/map_pin.png" alt=""><a class="dropmenu__link" href="#">Kharkiv</a></li>
+                                        				<li class="dropmenu__item"><img class="drops__img" src="images/map_pin.png" alt=""><a class="dropmenu__link" href="#">Sumy</a></li>
+                                    				</ul>
+                                			 </li>
+                            			</ul>
+    				   	</div>
+    					</div>
     				</div>	
     			</header>	
     		</div>
@@ -67,7 +68,6 @@
     			<div class="nav__box">
     			<div class="nav__responsive">
     			<nav class="nav">
-    				
     				<ul class="nav__list">
     					<li class="nav__item nav__item1"><a href="#" class="nav__link link"><img src="images/shape1.png" alt="" class="link__img1">Travel Guide</a></li>
     					<li class="nav__item nav__item2"><a href="#" class="nav__link link"><img src="images/shape2.png" alt="" class="link__img2">Services</a></li>
@@ -83,21 +83,18 @@
     	</div>	
         <div class="page__row">
             <div class="page__slide">
-                <div class="slide">
-                    
-                </div>
+                <div class="slide"></div>
                 <img class="item-bg" src="images/shape5.png" alt="">
-            </div>
-                
+            </div>    
         </div>  
         <div class="page__row content-map">
             <div class="page__content">
                 <div class="map">
-	                    <h1 class="map__text">Anywhere, anytime, where here to help.</h1>
-	                    <p class="map__text-colored">And we mean that.</p>
+	                    <h1 class="map__text">Anywhere, anytime, where here to help</h1>
+	                    <p class="map__text-colored">And we mean that</p>
 	                    <div class="map__box">
-	                    <div class="map__img"></div>
-                    	</div>
+	                    	<div class="map__img"></div>
+                    	    </div>
                 </div>
                 <div class="content__box">
                     <div class="box__pic">
@@ -128,9 +125,7 @@
         </div>
         <div class="page__row screen-row">
             <div class="screen">
-                <div class="screen__pic">
-                   
-                </div>
+                <div class="screen__pic"></div>
             </div>
         </div>       
         <div class="page__row">
@@ -144,39 +139,43 @@
                         </div>
                         <img class="slider2__bg2" src="images/slider_bg.png" alt="">
                     </div>
-                    <div class="slider-box">
-                        
-                            <ul class="bxslider">
-                                <div class="bxslider__box">
-                                    <img class="bxslider__item" src="images/slide.png" alt=""/><a href="#"><img class="slide__link" src="images/slide1a.png" alt=""></a>
-                                    <div class="item__text">
-                                        <h2 class="t1">Josh Jansen</h2>
-                                        <p class="t2">Digital Produser</p>
-                                    </div>
+                    <div class="slick">
+                            <div class="slick__box">
+                                <img class="slick__item" src="images/slide.png" alt=""/><a href="#"><img class="slide__link" src="images/slide1a.png" alt=""></a>
+                                <div class="item__text">
+                                    <h2 class="t1">Josh Jansen</h2>
+                                    <p class="t2">Digital Produser</p>
                                 </div>
-                                  <div class="bxslider__box">
-                                    <img class="bxslider__item" src="images/slide2.png" alt=""/><a href="#"><img class="slide__link" src="images/slide1a.png" alt=""></a>
-                                    <div class="item__text">
-                                        <h2 class="t1">Blaz Robar</h2>
-                                        <p class="t2">Designer</p>
-                                    </div>
+                            </div>
+                            <div class="slick__box">
+                                <img class="slick__item" src="images/slide2.png" alt=""/>
+								<a href="#"><img class="slide__link" src="images/slide1a.png" alt=""></a>
+                                <div class="item__text">
+                                    <h2 class="t1">Blaz Robar</h2>
+                                    <p class="t2">Designer</p>
                                 </div>
-                                  <div class="bxslider__box">
-                                    <img class="bxslider__item" src="images/slide3.png" alt=""/><a href="#"> <img class="slide__link" src="images/slide1a.png" alt=""></a>
-                                    <div class="item__text">
-                                        <h2 class="t1">James Brown</h2>
-                                        <p class="t2">Developer</p>
-                                    </div>
+                            </div>
+                            <div class="slick__box">
+                                <img class="slick__item" src="images/slide3.png" alt=""/><a href="#"><img class="slide__link" src="images/slide1a.png" alt=""></a>
+                                <div class="item__text">
+                                     <h2 class="t1">James Brown</h2>
+                                     <p class="t2">Developer</p>
                                 </div>
-                                  <div class="bxslider__box">
-                                    <img class="bxslider__item" src="images/slide4.png" alt=""/><a href="#"><img class="slide__link" src="images/slide1a.png" alt=""></a>
-                                    <div class="item__text">
-                                        <h2 class="t1">Skeletor</h2>
-                                        <p class="t2">Administration</p>
-                                    </div>
+                            </div>
+                            <div class="slick__box">
+                                <img class="slick__item" src="images/slide4.png" alt=""/><a href="#"><img class="slide__link" src="images/slide1a.png" alt=""></a>
+                                <div class="item__text">
+                                    <h2 class="t1">Skeletor</h2>
+                                    <p class="t2">Administration</p>
                                 </div>
-                            </ul>   
-                        
+                            </div>
+							<div class="slick__box">
+                                <img class="slick__item" src="images/slide5.png" alt=""/><a href="#"><img class="slide__link" src="images/slide1a.png" alt=""></a>
+                                <div class="item__text">
+                                    <h2 class="t1">John Janbish</h2>
+                                    <p class="t2">Digital Produser</p>
+                                </div>
+                            </div>
                     </div>    
                 </div>
             </div>  
@@ -246,7 +245,8 @@
     </div>     
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="js/jquery.dropmenu.js"></script>	
-        <script src="js/jquery.bxslider.min.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
         <script src="js/script.js"></script>
+	<script src="js/ie.js"></script>
     </body>
 </html>

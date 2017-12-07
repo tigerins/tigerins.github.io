@@ -74,8 +74,15 @@ body {
 .text-field__btn {
 	position: absolute;
 	background: #fff;
-	margin-left: -35px;
-	margin-top: 12px; 
+	border-radius: 0 4px 4px 0;
+	margin-left: -44px;
+	padding: 10px;
+	border: 1px solid #959595;
+	border-left: none;
+}
+.text-field__btn:hover {
+	background: #ae8cce;
+	opacity: .8;
 }
 .header__right {
 	float: right;
@@ -190,39 +197,20 @@ body {
 	position: relative;
 	width: 16.66%;
 	float: left;
-}
-.nav__item1 {
-	padding: 7% 2.9% 0;
+	padding: 7% 0;
+	text-align: center;
 	border-right: 1px solid #c7c7c7;
-	display: block;
-}
-.nav__item2 {
-	padding: 7% 5% 0;
-	border-right: 1px solid #c7c7c7;
-}
-.nav__item3 {
-	padding: 7% 6% 0;
-	border-right: 1px solid #c7c7c7;
-}
-.nav__item4 {
-	padding: 7% 4.5% 0;
-	border-right: 1px solid #c7c7c7;
-}
-.nav__item5 {
-	padding: 7% 5.1% 0;
-	border-right: 1px solid #c7c7c7;
-}
-.nav__item6 {
-	padding: 7% 5.4% 0;
-}
-.nav__item {
 	display: block;
 	padding-bottom: 2%;
+}
+.nav__item6 {
+	border-right: none;
 }
 .nav__item:hover {
 	margin-top: -1%;
 	background: url(images/menu_bg1.png) repeat-x;
 	border-bottom: 12px solid #701dbb;
+	cursor: pointer;
 }
 .link {
 	font-family: 'PT Sans', sans-serif;
@@ -395,7 +383,7 @@ body {
 	font-size: 1.5rem;
 }
 .screen-row {
-	max-width: 1560px;
+	width: 100%;
 	background: #222222;
 	padding-top: 55px;
 }
@@ -414,7 +402,8 @@ body {
 	background: url(images/screen.jpg) no-repeat;
 	background-position: center center;
 	background-size: cover;
-	border-radius: 23px 23px 0 0;
+	border-top-left-radius: 3% 7%;
+	border-top-right-radius: 3% 7%;
 	top: 0;
 	right: 0;
 	bottom: 0;
@@ -457,27 +446,16 @@ body {
 	width: 24%;
 	margin: 0.8% 1% 0 0;
 }
-.bxslider__box {
-	width: 236px;
-	height: 306px;
-}	
-.bxslider__item {
-	width: 100%;
-	width: 235px;
-	height: 226px;
-	position: relative;
-}
 .slide__link {
 	position: absolute;
 	width: 46px;
 	height: 41px;
-	bottom: 93px;
-	right: 13px;
+	bottom: 25%;
+	margin-left: 177px;
 	box-shadow: 1px 1px 2px #000;
 }
 .slide__link:hover {
-	width: 42px;
-	height: 36px;
+	opacity: .8;
 }
 .t1 {
 	margin: 15px 0 0 5px;
@@ -550,8 +528,7 @@ body {
 	height: 30px;
 }
 .box-link:hover, .box-link2:hover {
-	width: 27px;
-	height: 27px;
+	opacity: .8;
 }
 .middle__box, .middle__box2 {
 	margin: 0 1%;

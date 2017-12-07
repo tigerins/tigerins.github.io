@@ -1,0 +1,174 @@
+@media screen and (max-width: 992px) {
+	html {
+		font-size: 90%;
+	}
+	
+@media screen and (max-width: 966px) {
+	html {
+		font-size: 85%;
+	}
+	.header__menu {
+		width: 430px;
+	}
+	.scr-shot__img {
+		margin: 0 auto;
+		float: none;
+	}
+	.right__div {
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+	.div__t1 {
+		text-align: center;
+	}
+	.find, .find2 {
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+	.find {
+		margin-bottom: 1%;
+	}
+}	
+
+@media screen and (max-width: 800px){
+	html {
+		font-size: 80%;
+	}
+	.menu__list {
+		display: none;
+		font-size: 1.175rem;
+	}
+	.nav__btn {
+		display: block;
+		float: right;
+	}
+	.nav-second--open {
+		display: block;
+	}
+	.header__menu {
+		position: absolute;
+		width: 270px;
+		right: 12%;
+		margin-top: 0.5%;
+		float: right;
+	}
+	.list__item {
+		margin: 1% 2%;
+	}
+	.list__item:first-child {
+		margin-left: 2%;
+	}
+	.list__item:last-child {
+		margin-right: 2%;
+	}
+	.scr-shot__img {
+		width: 60%
+	}
+	.right__div {
+		width: 50%;
+	}
+	.link__t1  {
+		font-size: 1.375rem;
+	}
+	.link__t2 {
+		font-size: 1.175rem;
+	}
+}
+
+@media screen and (max-width: 671px){
+	.menu__list {
+		font-size: 1rem;
+	}
+	.header__menu {
+		width: 230px;
+	}
+}
+
+@media screen and (max-width: 500px){
+	html {
+		font-size: 75%;
+	}
+	.slide__btn {
+		font-size: 1.075rem;
+	}
+	.link__t1  {
+		font-size: 1.175rem;
+	}
+	.link__t2 {
+		font-size: 0.975rem;
+	}
+	.middle__row {
+		padding-top: 40px;
+	}
+	.menu__link {
+		padding-top: 25px;
+		padding-bottom: 15px;
+		border-bottom: 1px solid #dedede;
+	}
+	.tab {
+		padding: 30px 30px;
+		border: 1px solid #dedede;
+		border-top: none;
+	}
+	.active	{
+		border: 1px solid #dedede;
+		border-bottom: none;
+	}
+	.find {
+		width: 280px;
+		float: none;
+		background: #e67624;
+	}
+	.form__t1 {
+		text-align: center;
+	}
+	.form__find {
+		margin: 0 auto;
+	}
+	.text-field__item1,
+	.text-field__item2 {
+		width: 230px;
+		padding: 0 12px 0;
+		float: none;
+		margin: 0 auto 5px;
+	}
+	.find2 {
+		width: 280px;
+		float: none;
+		background: #01d4f3;
+	}
+	.form__t2 {
+		text-align: center;
+	}	
+	.form__find2 {
+		margin: 0 auto;
+	}
+	.text-field__item-2 {
+		width: 230px;
+		padding: 0 12px 0;
+		float: none;
+		margin: 0 auto 5px;
+	}
+	.header__menu {
+		width: 200px;
+		right: 4%;
+		margin-top: 6%;
+	}
+	.menu__list {
+		font-size: 0.925rem;
+	}
+	.footer__logo {
+		top: 15%;
+	}
+	.box__left {
+		float: none;
+	}
+	.footer__reviews {
+		width: 50%;
+		display: block;
+		margin: 20px auto;
+		text-align: center;
+	}
+}
